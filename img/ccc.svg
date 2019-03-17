@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="712" height="166" viewBox="0 0 712 166">
+  <g id="Group_74" data-name="Group 74" transform="translate(-604 -717)">
+    <text id="C_C_C" data-name="C + C + C" transform="translate(960 850)" fill="#231834" font-size="141" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-272.13" y="0">C </tspan><tspan y="0" fill="#00b3e3">+</tspan><tspan y="0" xml:space="preserve"> C </tspan><tspan y="0" fill="#00b3e3">+</tspan><tspan y="0" xml:space="preserve"> C</tspan></text>
+    <rect id="Rectangle_174" data-name="Rectangle 174" width="70" height="2" transform="translate(1246 800)" fill="#ddd"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="12" cy="12" r="12" transform="translate(1292 790)" fill="#ddd"/>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(1296 794)" fill="#ddd" stroke="#fff" stroke-width="2">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7" fill="none"/>
+    </g>
+    <rect id="Rectangle_175" data-name="Rectangle 175" width="70" height="2" transform="translate(674 802) rotate(180)" fill="#ddd"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="12" cy="12" r="12" transform="translate(628 812) rotate(180)" fill="#ddd"/>
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(624 808) rotate(180)" fill="#ddd" stroke="#fff" stroke-width="2">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7" fill="none"/>
+    </g>
+  </g>
+</svg>
