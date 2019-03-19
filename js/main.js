@@ -109,12 +109,21 @@ var kraken = {
                 $('#'+ mostrar).show();
             });
         }
+    },
+
+    kiosko : function() {
+        if($('.accordion').length) {
+            if($(window).width() < 681) {
+                $('.collapse').collapse()
+            }
+        }
     }
 }
 $(document).ready(function() {
     kraken.homePage();
     kraken.nosotros();
     kraken.tabs();
+    kraken.kiosko();
 
     // https://bootstrap-datepicker.readthedocs.io/en/latest/
     if($('.datepicker').length) {
