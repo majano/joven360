@@ -165,6 +165,8 @@ a {
 .header .navigation .mobile {
     display: none;
     border-top: 2px solid #eee;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .navigation {
     border-top: 1px solid #eee;
@@ -1821,6 +1823,8 @@ hr {
         width: 100%;
         background: #fff;
         text-align: left !important;
+        border: 0;
+        padding: 30px 0;
     }
     .navigation ul {
         display: block;
@@ -1833,7 +1837,7 @@ hr {
         font-size: 1.5em;
         line-height: 52px;
         border-top: 0;
-    }    
+    }     
     .grey-content {
         padding: 90px 0 20px;
     }
