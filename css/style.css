@@ -1195,6 +1195,30 @@ hr {
 .aside .blue-brand-box a:hover {
     color: inherit;
 }
+.aside .tags {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.aside .tags li {
+    display: inline-block;
+    float: left;
+    margin: 2px;    
+}
+.aside .tags a {
+    border: 1px solid #ccc;
+    display: block;
+    line-height: 32px;
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.aside .tags a:hover {
+    border-color: #80BD01;
+    color: #80BD01;
+}
 .oportunidades-relacionadas {
     border-top: 1px solid #eee;
     padding: 60px 0 0;
@@ -1312,7 +1336,7 @@ hr {
 }
 .det-content .list-items li {
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .det-content .list-items li a {
     display: block;
@@ -1383,6 +1407,10 @@ hr {
 }
 .aside .list-items li a {
     color: #231834;
+    font-weight: 600;
+} 
+.fecha {
+    color: #999;    
 }
 .blog-categories {
     padding: 20px 0;
@@ -1393,7 +1421,7 @@ hr {
     display: inline-block;
     color: #231834;
     background: #eee;
-    padding: 5px;
+    padding: 5px 8px;
     border-radius: 4px;
     margin: 5px 5px 5px 0;
     font-size: 10px;
@@ -1524,6 +1552,9 @@ hr {
     background: #eee url(../img/contacto-form-bg.png) center center no-repeat;
     background-size: contain;
 } 
+.kiosko-main {
+    padding-bottom: 0;
+}
 .kiosko-content .encabezado {
     padding-bottom: 60px;
 }
@@ -1813,7 +1844,7 @@ hr {
         text-align: center;
     }
     .login-form .text-center-mobile .btn {
-        margin: 10px;
+        margin: 10px 0;
         float: none;
     }
     .login-form .text-center-mobile .btn-right {
@@ -1905,7 +1936,35 @@ hr {
     }
 }
 @media screen and (max-width: 620px) {    
-    
+    .header .top-bar, .grey-content, .slider-logos,
+    .reciente-content .events li .picture, .footer h5, .footer ul,
+    .aside {
+        display: none;
+    } 
+    .container {
+        padding: 0 20px;
+    }
+    .slider-register .content {
+        max-width: 100%;
+        margin: 0;
+    }    
+    .slider-register .col-md-6 {
+        padding: 30px;
+    }
+    .slider-register .col-md-6:first-child {
+        background: #80BD01;
+        background-image: -webkit-gradient(linear,  left top, right top,  from(#a1e60e), to(#80BD01));
+        background-image: -webkit-linear-gradient(left,  #a1e60e, #80BD01);
+        background-image: -o-linear-gradient(left,  #a1e60e, #80BD01);
+        background-image: linear-gradient(to right,  #a1e60e, #80BD01);
+    }
+    .slider-register .col-md-6:last-child {
+        background: #00B3E3;
+        background-image: -webkit-gradient(linear,  left top, right top,  from(#0cc4f7), to(#00B3E3));
+        background-image: -webkit-linear-gradient(left,  #0cc4f7, #00B3E3);
+        background-image: -o-linear-gradient(left,  #0cc4f7, #00B3E3);
+        background-image: linear-gradient(to right,  #0cc4f7, #00B3E3);
+    }
     .slick-dots {
         display: none;
         list-style: none;
@@ -1931,27 +1990,39 @@ hr {
     }
     .slick-dots .slick-active {
         background: #fff;
+    } 
+    .purple-content {
+        padding: 50px 0;
+        max-height: inherit;
     }
-    .header .top-bar,
-    .purple-content .picture, .grey-content, .slider-logos,
-    .reciente-content .events li .picture, .footer h5, .footer ul,
-    .aside {
-        display: none;
+    .purple-content .context {
+        margin-bottom: 30px;
     }    
-    .grey-nosotros-content {
+    .purple-content .context h3 {
+        margin-bottom: 20px;
+    }
+    .purple-content .context h3 br {
+        display: none;
+    }
+    .purple-content .content {
+        top: 0;
+        margin-top: -60px;
+        margin-bottom: 20px;
+    }
+    .purple-content .content h4 {
+        margin: 0;
+    }
+    .purple-content .content p {
+        display: none;
+    }
+    .purple-content a {
         display: block;
-        padding: 0 0 30px;
-    }
-    .grey-nosotros-content .content .break::after {
-        margin: 20px auto;
-    }
-    .grey-nosotros-content .content {
-        padding: 30px 20px;
-        text-align: center
-    }
-    .grey-nosotros-content img {
-        max-width: 80%;
-    }
+    }    
+    .oportunidades-content .item .empresa,
+    .oportunidades-content .item .tiempo {
+        font-size: 14px;
+        margin: 5px 0;
+    }    
     h1 {
         font-size: 32px;  
         margin-bottom: 30px;
@@ -1960,29 +2031,18 @@ hr {
         font-size: 26px; 
     }
     h3 {
-        font-size: 16px; 
+        font-size: 18px; 
     }
     .btn {
         padding: 0 20px;
         line-height: 42px;        
+        font-size: 16px;
+        text-transform: capitalize;
+    } 
+    .white-content, .valores-content, .reciente-content {
+        padding: 60px 0;
     }
-    
-    .purple-content {
-        padding: 30px 0;
-        max-height: inherit;
-    }
-    .purple-content .context {
-        margin-bottom: 0;
-    }    
-    .purple-content .context h3 {
-        margin-bottom: 20px;
-    }
-    .purple-content .content {
-        top: 0;
-        margin-top: 20px;
-        width: 100%;
-    }    
-    .white-content, .oportunidades-content, .valores-content {
+    .oportunidades-content {
         padding: 30px 0;
     }    
     .oportunidades-content .item .flex {
@@ -2007,11 +2067,16 @@ hr {
         padding: 20px;
     } 
     .reciente-content {
-        background-size: 100px;
-        padding-bottom: 20px;
+        background-size: 100px; 
     }
     .reciente-content::after {
         width: 100px;
+    }
+    .reciente-content .row {
+        margin: 0;
+    }
+    .reciente-content .col-md-6 {
+        margin: 30px 0;
     }
     .newsletter .input {
         width: 100%;
@@ -2041,27 +2106,34 @@ hr {
     } 
     .footer ul.social {
         display: block;
-    }  
+    }   
     .history-content .flex div:first-child {
-        height: 400px;
+        height: auto; 
+    }
+    .history-content .flex div:last-child { 
+        display: none
     }
     .history-content .slick-next, .history-content .slick-prev {
-        bottom: 125px;
+        bottom: 20px;
     }
     .history-content .slick-next {
-        left: 68px;
+        left: inherit;
+        right: 20px;
     }
     .history-content .slick-prev {
-        left: 30px;
+        left: inherit;
+        right: 60px;
     }
     .main {
-        padding: 30px 0 0;
+        padding: 60px 0 0;
+        background: rgba(238, 238, 238,.4);
     }
     .blue-content {
         text-align: center;
+        padding: 60px 20px;
     }
     .blue-content .btn {
-        margin: 20px 0;
+        margin: 20px 0; 
     }
     .login-form .content {
         max-width: 90%;
@@ -2084,6 +2156,9 @@ hr {
     .kiosko-content .purple-content::after {
         display: none
     }
+    .event-details {
+        margin: 20px 0 40px;
+    }
     .event-details .flex {
         display: block;
     }
@@ -2091,6 +2166,16 @@ hr {
         display: list-item;
         border: 0;
         border-bottom: 1px solid #eee;
+        text-align: left;
+        padding: 10px 20px;
+    }
+    .event-details i {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 0;
+        width: 18px;
+        position: relative;
+        top: 3px;
     }
     .mi-cuenta {
         padding-top: 0;
@@ -2100,7 +2185,7 @@ hr {
     }
     .nav-tabs {
         display: flex;
-        margin: 0 -15px;
+        margin: 0 -20px;
     }
     .nav-tabs li {
         flex: 1;
@@ -2133,5 +2218,92 @@ hr {
     }
     .kiosko-content .purple-content {
         padding-bottom: 20px;
+    }
+    .oportunidades-container {
+        padding-top: 10px;
+    }
+    .empresas-container {
+        padding-bottom: 60px;
+    }
+    .empresas-container .text-center br {
+        display: none;
+    }
+    .det-content .list-items .fecha {
+        margin-bottom: 5px;
+    }
+    .login-form .content {
+        padding: 40px 14px;
+    }
+    .form label {
+        font-size: 14px;
+    }
+    .btn-fb, .btn-in {
+        font-size: 14px;
+        letter-spacing: 0;
+        padding-left: 30px;
+    }
+    .det-content .actions .btn {
+        margin: 20px;
+        line-height: 42px; 
+        display: block;
+    }
+    .oportunidades-relacionadas {
+        margin: 0;
+        padding: 36px 0 0;
+    }
+    .oportunidades-relacionadas .label {
+        margin-bottom: 0;
+    }
+    .white-nosotros-content {
+        background-position: 0 23%;
+        -moz-box-shadow: inset 0 -60px 0 rgba(238, 238, 238,.4);
+        -webkit-box-shadow: inset 0 -60px 0 rgba(238, 238, 238,.4);
+        box-shadow: inset 0 -60px 0 rgba(238, 238, 238,.4)
+    }
+    .white-nosotros-content .my-5 {
+        margin: 0 !important
+    }
+    .white-nosotros-content .cards .content {
+        margin-bottom: 20px;
+    }
+    .grey-nosotros-content {
+        display: block;
+        padding: 0 0 30px;
+    }
+    .grey-nosotros-content {
+        background: rgba(238, 238, 238,.4);
+    }
+    .grey-nosotros-content .content .break::after {
+        margin: 20px auto;
+    }
+    .grey-nosotros-content .content {
+        padding: 0 0 30px;
+        text-align: center
+    }
+    .grey-nosotros-content img {
+        max-width: 90%;
+    }
+    .grey-nosotros-content .btn {
+        margin-top: 20px;
+    }
+    .kiosko-content .encabezado .logo {
+        width: 160px;
+        height: 160px;    
+    }
+    .kiosko-content .white-content {
+        padding-bottom: 20px;
+        background-position: -25% 98%;
+    }
+    .kiosko-content .white-content br {
+        display: none;
+    }
+    .kiosko-content .pattern-bg.py-5 {
+        padding: 0 !important;
+    }
+    .accordion .card-body {
+        padding-bottom: 40px;
+    }
+    .det-content .picture.py-4 {
+        padding-top: 0 !important;
     }
 }
