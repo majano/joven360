@@ -634,8 +634,10 @@ a {
     border-bottom: 3px solid #00B3E3;
 }
 .banner-section {
-    background: url(../img/banner.png) center center no-repeat;
-    background-size: cover;
+    background: #231834 url(../img/banner_seccion_global.jpg) center 0 no-repeat;  
+    background-size: 100%;
+    background-attachment: fixed;
+    background-blend-mode: screen;
     text-align: center;
     padding: 100px 20px;
 }
@@ -1080,13 +1082,16 @@ hr {
 }
 .nav-tabs .nav-link {
     border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid transparent;
 }
 .nav-tabs li a {
-    padding: 16px 20px; 
+    padding: 0 20px 16px; 
     font-weight: 700; 
+    border: 0;
 }
 .nav-tabs .nav-link.active {
-    border-top: 2px solid #80BD01;
+    border-color: #80BD01;
 }
 .filtro {
     text-align: center;
@@ -1808,6 +1813,10 @@ hr {
     .slider-register {
         background-image: url(../img/banner-tablet.jpg);
     }
+    .banner-section {
+        background-attachment: initial;
+        background-size: cover;
+    }
 }
 @media screen and (max-width: 1024px) {
     body {
@@ -2233,6 +2242,9 @@ hr {
     }
     .oportunidades-container {
         padding-top: 10px;
+    }
+    .oportunidades-container .nav-tabs .nav-item .nav-link {
+        padding: 10px 8px;
     }
     .empresas-container {
         padding-bottom: 60px;
