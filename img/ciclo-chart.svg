@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="727.126" height="549.561" viewBox="0 0 727.126 549.561">
   <g id="Group_80" data-name="Group 80" transform="translate(-92.874 -2818)">
+  <defs>
+  <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');</style>
+  </defs>
     <circle id="Ellipse_12" data-name="Ellipse 12" cx="192.5" cy="192.5" r="192.5" transform="translate(247 2920)" fill="#fff"/>
     <text id="Ciclo_360" data-name="Ciclo 360" transform="translate(346 3127.5)" fill="#231834" font-size="42" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">Ciclo 360</tspan></text>
     <g id="circular-chart" transform="translate(192.148 2886.148)">

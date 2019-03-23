@@ -901,6 +901,9 @@ hr {
     position: relative;
     z-index: 1;
 }
+.white-nosotros-content h6 {
+    line-height: 1.4;
+}
 .grey-nosotros-content { 
     padding: 60px 0;
 }
@@ -2309,5 +2312,15 @@ hr {
     }
     .det-content .picture.py-4 {
         padding-top: 0 !important;
+    }
+    .counter-content {
+        margin: 0;
+        padding: 10px 0 60px;
+    }
+    .counter-content .col-md-3 {
+        margin-bottom: 40px;
+    }
+    .counter-content .break::after {
+        margin: 10px auto;
     }
 }
