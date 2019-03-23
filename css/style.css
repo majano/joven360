@@ -912,6 +912,7 @@ hr {
 }
 .grey-nosotros-content svg {
     max-width: 100%;
+    display: block;
     margin-bottom: 30px;
 }
 .grey-nosotros-content .content {
