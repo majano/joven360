@@ -910,6 +910,10 @@ hr {
 .grey-nosotros-content img {
     margin-bottom: 30px;
 }
+.grey-nosotros-content svg {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
 .grey-nosotros-content .content {
     padding: 30px;
 }
