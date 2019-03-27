@@ -735,6 +735,9 @@ hr {
     height: 0;
     opacity: 0;
 } 
+.form input[type=checkbox], .form input[type=radio] {
+    margin-top: 0;
+}
 .inputfile {
     width: 0.1px;
     height: 0.1px;
@@ -982,6 +985,20 @@ hr {
     height: 32px; 
     vertical-align: middle;
 }
+.blue-service-content .dark-content .form {
+    max-width: 600px;
+    margin: 60px auto 0;
+}
+.blue-service-content .dark-content .form label {
+    color: #fff;
+    text-align: left;
+}
+.blue-service-content .dark-content .form input {
+    margin-bottom: 25px;
+}
+.blue-service-content .dark-content .form .btn {
+    margin: 40px 0;
+}
 .i-trofeo {
     background: url(../img/i-trofeo.svg) center center no-repeat;
     background-size: contain;
@@ -1215,7 +1232,7 @@ hr {
 .aside .blue-brand-box a:hover {
     color: inherit;
 }
-.aside .tags {
+.aside .bloggers, .aside .tags {
     margin: 0 0 60px;
     padding: 0;
     list-style: none;
@@ -1238,6 +1255,36 @@ hr {
 .aside .tags a:hover {
     border-color: #80BD01;
     color: #80BD01;
+}
+.aside .bloggers li {
+    border-bottom: 1px solid #eee;    
+}
+.aside .bloggers .picture {
+    width: 52px;
+    height: 52px;
+    float: left;
+    background: #eee;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.aside .bloggers p {
+    margin: 0;
+}
+.aside .bloggers a {
+    padding: 12px;
+    color: #231834;
+    font-weight: 600;
+    display: block;
+    overflow: hidden;
+    transition: background 0.2s ease;
+}
+.aside .bloggers a:hover {
+    background: #eee;
+    text-decoration: none;
+}
+.aside .bloggers .post-number {
+    color: #666;
 }
 .oportunidades-relacionadas {
     border-top: 1px solid #eee;
@@ -1645,6 +1692,19 @@ hr {
     height: 60px;
     margin-bottom: 20px;
 } 
+.kiosko-proyectos {  
+    background: #f5f5f5;
+    padding-top: 100px; 
+}
+.kiosko-proyectos h2 {
+    margin: 0 0 30px;
+}
+.kiosko-proyectos h4 {
+    line-height: 32px;
+}
+.kiosko-proyectos .bottom-image {
+    margin-top: 60px;
+}
 .mi-cuenta {
     padding-top: 0;
 }
