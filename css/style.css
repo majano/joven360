@@ -547,7 +547,7 @@ a {
     background-size: cover;
 }
 .footer {
-    padding: 60px 0;
+    padding: 100px 0;
     background: url(../img/base.png) 90% bottom no-repeat;
     background-size: 200px 7px;
 }
@@ -2466,5 +2466,14 @@ hr {
     }
     .voluntariado-layout .col-md-6 img {
         margin-bottom: 30px;
+    }
+    .blue-service-content .dark-content .form {
+        padding: 0 24px;
+    }
+    .footer {
+        padding: 60px 0;
+    }
+    .service-top {
+        padding-bottom: 30px;
     }
 }
