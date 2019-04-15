@@ -32,7 +32,7 @@ var kraken = {
                 speed: 800,
                 autoplay: true,
                 autoplaySpeed: 6000,
-                slidesToShow: 4,
+                slidesToShow: 5,
                 slidesToScroll: 1,
                 pauseOnFocus: false,
                 pauseOnHover: false 
