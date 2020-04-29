@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Joven 360</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" />
     
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:wght@400;600&Raleway:400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="js/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -43,24 +42,43 @@
         <div>
             <div class="callus text-center">¿Eres una empresa?<br/>Llámanos al <a href="tel:(+503)2565-6000">2565-6000</a></div>
         </div> 
-    </div> 
+    </div>
+    
+    <div class="banner-section flex">
+        <h1>Regístrate</h1>
+    </div>
 
-    <div class="main">
+    <div class="subnav">
+        <ul>
+            <li><a href="registro.html">Usuario Nuevo</a></li>
+            <li><a href="#" class="active">Soy una Empresa</a></li>
+        </ul>
+    </div>
+
+    <div class="main pattern-bg">
         <div class="cards login-form">
             <div class="content">
-                <h2 class="break">Ingresa a tu Cuenta</h2>
-                <div class="form"> 
+                <h2 class="break">Soy una Empresa</h2>
+                <div class="form">
+                    <label for="">Nombre de la Empresa</label>
+                    <input type="text" placeholder="Joven 360">
+                    
+                    <label for="">Nombre de contacto</label>
+                    <input type="text" placeholder="Juan Perez">
+
                     <label for="">Email</label>
                     <input type="text" placeholder="email@ejemplo.com">
 
                     <label for="">Contraseña</label>
-                    <input type="text" placeholder="*****"> 
+                    <input type="text" placeholder="*****">
+
+                    <label for="">Reescriba la contraseña</label>
+                    <input type="text" placeholder="*****">
                 </div>
-
-                <div class="text-center py-4"><button class="btn btn-medium">Ingresar</button></div>
-
-                <p class="text-center py-2"><a href="olvide-contrasena.html"><strong>Olvidé mi contraseña</strong></a></p>
-                <p class="text-center py-2">¿No tienes cuenta? <a href="registro.html"><strong>Regístrate</strong></a></p>
+                <div class="row text-center-mobile">
+                    <div class="col-md-7">¿Ya tienes cuenta? <a href="login.html">Inicia Sesión</a></div>
+                    <div class="col-md-5"><button class="btn btn-right">Registrarme</button></div>
+                </div> 
             </div>
         </div>
     </div>
